@@ -10,8 +10,10 @@ public class IsUniqueTest {
   @Test
   public void isUniqueTest() {
     IsUnique isUnique = new IsUnique();
+
     assertTrue(isUnique.isUnique("abcde"));
     assertTrue(isUnique.isUnique("aAbBcCdDeE"));
     assertFalse(isUnique.isUnique("abcded"));
+
   }
 }

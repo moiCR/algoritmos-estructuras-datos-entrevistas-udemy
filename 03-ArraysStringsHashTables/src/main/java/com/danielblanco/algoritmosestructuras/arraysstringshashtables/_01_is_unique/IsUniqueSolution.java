@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class IsUniqueSolution {
 
-  // Asumiendo que es ASCII. Dependiendo de la codificación serán más
+
   private static int NUMBER_OF_CHARS = 128;
 
   public boolean isUnique(String s) {
