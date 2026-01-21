@@ -17,11 +17,11 @@ public class IsUnique {
 
     for (char c : charsArray) {
         if (charsSet.contains(c)){
-          return false;
+            return false;
         }
         charsSet.add(c);
     }
 
-    return charsSet.size() == charsArray.length;
+    return true;
   }
 }
